@@ -4,7 +4,7 @@ class Anagram
   def initialize(word)
     @word  = word 
   end 
-  def match()
+  def match(array_of_words)
  return_array = []
     #array_of_words.each do |element|
       #(@word.split("").sort) == (element.split("").sort)
